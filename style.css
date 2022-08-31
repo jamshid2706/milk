@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    padding: 30px;
+    margin-right: 5%;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 16px;
+    color: black;
+    font-weight: 600;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.menu li a:hover{
+    color: #437923;
+}
+.menu-2{
+    display: flex;
+    margin-left: 5%;
+}
+.menu-2 ul{
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+}
+.menu-2 ul li{
+    padding: 15px;
+}
+.menu-2 ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.menu-2 li a:hover{
+    color: #437923;
+}
+.on .off{
+    margin-top: -25%;
+    margin-left: 8%;
+}
+.on p{
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+    padding: 30px;
+}
+.on button{
+    font-size: 17px;
+    width: 10%;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 500;
+    color: white;
+    background-color: #437923;
+    transition: 0.5s;
+    text-align: center;
+    margin-left: 10%;
+}
+.on button:hover{
+    background-color: white;
+    color: #437923;
+}
+.snake{
+    margin-top: 10%;
+}
+.snake p{
+    font-size: 4.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+}
+.ooo{
+    display: flex;
+    margin-right: 4%;
+}
+.container{
+    height: auto;
+    width: 50%;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+}
+.container img{
+    width: 100%;
+    display: block;
+    transition: transform 2s;
+    border-radius: 10px;
+    padding: 50px;
+}
+.container:hover img{
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.ooo-1{
+    display: flex;
+}
+.ooo-1 p{
+    display: flex;
+    list-style-type: none;
+    padding: 140px;
+    font-size: 25px;
+    margin-top: -9%;
+    font-weight: 500;
+    transition: 0.2s;
+}
+.ooo-1 p:hover{
+    color: #437923;
+}
+.fourth {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(45deg, #fff 50%, #437923 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 1000ms ease-in-out;
+    width: 157px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 4rem;
+}
+.fourth:hover {
+    background-position: 0;
+    color: #437923;
+}
+.asl-1{
+    margin-left: 7%;
+    margin-top: -12%;
+}
+.asl-2{
+    margin-left: 31%;
+    margin-top: -8.2%;
+}
+.asl-3{
+    margin-left: 56%;
+    margin-top: -8%;
+}
+.asl-4{
+    margin-left: 80%;
+    margin-top: -8%;
+}
+.conrainere{
+    max-width: 960xpx;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    padding: 25px;
+    display: block;
+}
+.parallax{
+    background: url(img/parallax\ -\ 2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 760px;
+}
+.box{
+    width: 300px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.mono{
+    text-align: center;
+    line-height: 90px;
+    margin-top: -50%;
+    color: white;
+}
+.mono h1{
+    font-size: 70px;
+}
+.mono p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.mono span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.pul{
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(45deg, #fff 50%, #437923 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 1000ms ease-in-out;
+    width: 157px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+.pul:hover{
+    background-position: 0;
+    color: #437923;
+}
+.snake img{
+    margin-left: 44%;
+}
+.card{
+    display: flex;
+    margin-left: 2%;
+}
+.card img{
+    width: 24%;
+    padding: 5px;
+    cursor: pointer;
+}
+.dic{
+    display: flex;
+    margin-left: 8%;
+}
+.ssd{
+    display: flex;
+    padding: 20px;
+}
+.ssd p{
+    padding: 10px 40px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.ssd p:hover{
+    color: #437923;
+}
+.future{
+    background-color: #4a2915;
+    width: 100%;
+    height: 100%;
+    margin-top: -1%;
+}
+.future p{
+    margin-left: 8%;
+}
+.feed{
+    margin-left: 8%;
+}
+.feed i{
+    font-size: 25px;
+    padding: 5px;
+    color: white;
+    margin-left: 0.5%;
+    cursor: pointer;
+}
+.future p{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.future-2{
+    display: flex;
+    margin-left: 28%;
+    margin-top: -10%;
+}
+.future-2 ul{
+    padding: 100px;
+}
+.future-2 li {
+    list-style-type: none;
+}
+.future-2 li a{
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+}
+.future-3{
+    margin-left: 29%;
+}
+.future-3 p{
+    font-size: 13px;
+}
+.footer-seperator_2{
+    height: 2px;
+    width: 83%;
+    order: 5;
+    background-color: #fff;
+    margin-left: 8%;
+}
+.future-4 p{
+    font-size: 2rem;
+}
+.future-5{
+    margin-left: 8%;
+}
+.tut{
+    border: 2px solid white;
+    color: white;
+    background-image: linear-gradient(45deg, #fff 50%, #4a2915 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 1000ms ease-in-out;
+    width: 157px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.tut:hover{
+    background-position: 0;
+    color: #437923;
+}
